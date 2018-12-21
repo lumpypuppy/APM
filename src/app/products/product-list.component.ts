@@ -8,7 +8,7 @@ import { ProductService } from "./product.service";
     styleUrls: ['./product-list.component.css']
 })
 export class ProductListComponent implements OnInit{
-    pageTitle: string = "Product List";
+    pageTitle: string = "Product List:";
     imageWidth: number = 50;
     imageMargin: number = 2;
     showImage: boolean = false;
